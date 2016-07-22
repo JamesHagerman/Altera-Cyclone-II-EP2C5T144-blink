@@ -22,4 +22,6 @@ There are some good tutorials around on the web but I'll throw what I can in her
 
 This is the pain in the butt one that I'll write up later. You need to convert the `.pom` output from your compile step to a `.jic` file first.
 
-Once that's done, `Tools -> Programmer` then make sure you go to `View -> Show Device Tree` then... so on.
+Once that's done, `Tools -> Programmer` then make sure you go to `View -> Show Device Tree` then... so on
+
+Actually, all of this is kinda described in: [https://www.altera.com/en_US/pdfs/literature/an/an370.pdf](https://www.altera.com/en_US/pdfs/literature/an/an370.pdf)
