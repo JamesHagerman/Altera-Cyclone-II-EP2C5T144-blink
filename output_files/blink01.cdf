@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2C5) Path("/media/jamis/8ac7fe17-57f8-471e-a11d-a93c793509c3/jamis/Desktop/my_root/Development/Circuits_MPUs/Altera_FPGA/alteraProjects/output_files/") File("output_file.jic") MfrSpec(OpMask(1) SEC_Device(EPCS4) Child_OpMask(1 1));
+		Device PartName(EP2C5) Path("/media/jamis/8ac7fe17-57f8-471e-a11d-a93c793509c3/jamis/Desktop/my_root/Development/Circuits_MPUs/Altera_FPGA/alteraProjects/blink01/output_files/") File("output_file.jic") MfrSpec(OpMask(1) SEC_Device(EPCS4) Child_OpMask(1 1));
 
 ChainEnd;
 
