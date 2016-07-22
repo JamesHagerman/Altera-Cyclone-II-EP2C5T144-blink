@@ -1,0 +1,19 @@
+-- these are comments
+--
+
+-- This is the start of an "ENTITY"
+library ieee; -- This is important. basically tells the compiler we're onboard with ieee
+use ieee.std_logic_1164.all;
+ENTITY compare8 IS PORT(
+	x, y: IN	std_logic_vector(7 DOWNTO 0) ; -- two, 8 bit inputs, lsb
+	res: OUT	std_logic ); -- one binary output
+END compare8;
+
+-- Now we must define the actual "ARCHITECTURE" for this "ENTITY"
+-- This is how the entity actually works:
+ARCHITECTURE struct OF compare8 IS
+BEGIN
+	res <= '1' WHEN (x = y) ELSE '0';
+END struct;
+-- And that's it! Our very first, useless, 8bit compare function.
+
