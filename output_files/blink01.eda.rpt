@@ -1,5 +1,5 @@
 EDA Netlist Writer report for blink01
-Fri Jul 22 01:07:50 2016
+Tue Jul 21 03:14:52 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Jul 22 01:07:50 2016 ;
+; EDA Netlist Writer Status ; Successful - Tue Jul 21 03:14:52 2020 ;
 ; Revision Name             ; blink01                               ;
 ; Top-level Entity Name     ; blink01                               ;
 ; Family                    ; Cyclone II                            ;
@@ -66,16 +66,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                                                                            ;
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                                                                       ;
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; /media/jamis/8ac7fe17-57f8-471e-a11d-a93c793509c3/jamis/Desktop/my_root/Development/Circuits_MPUs/Altera_FPGA/alteraProjects/simulation/modelsim/blink01.vho          ;
-; /media/jamis/8ac7fe17-57f8-471e-a11d-a93c793509c3/jamis/Desktop/my_root/Development/Circuits_MPUs/Altera_FPGA/alteraProjects/simulation/modelsim/blink01_fast.vho     ;
-; /media/jamis/8ac7fe17-57f8-471e-a11d-a93c793509c3/jamis/Desktop/my_root/Development/Circuits_MPUs/Altera_FPGA/alteraProjects/simulation/modelsim/blink01_vhd.sdo      ;
-; /media/jamis/8ac7fe17-57f8-471e-a11d-a93c793509c3/jamis/Desktop/my_root/Development/Circuits_MPUs/Altera_FPGA/alteraProjects/simulation/modelsim/blink01_vhd_fast.sdo ;
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                          ;
++-------------------------------------------------------------------------------------+
+; Generated Files                                                                     ;
++-------------------------------------------------------------------------------------+
+; D:/temp-development/alteraProjects/blink01/simulation/modelsim/blink01.vho          ;
+; D:/temp-development/alteraProjects/blink01/simulation/modelsim/blink01_fast.vho     ;
+; D:/temp-development/alteraProjects/blink01/simulation/modelsim/blink01_vhd.sdo      ;
+; D:/temp-development/alteraProjects/blink01/simulation/modelsim/blink01_vhd_fast.sdo ;
++-------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -84,13 +84,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Jul 22 01:07:50 2016
+    Info: Processing started: Tue Jul 21 03:14:52 2020
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off blink01 -c blink01
-Info (204026): Generated files "blink01.vho", "blink01_fast.vho", "blink01_vhd.sdo" and "blink01_vhd_fast.sdo" in directory "/media/jamis/8ac7fe17-57f8-471e-a11d-a93c793509c3/jamis/Desktop/my_root/Development/Circuits_MPUs/Altera_FPGA/alteraProjects/simulation/modelsim/" for EDA simulation tool
+Info (204026): Generated files "blink01.vho", "blink01_fast.vho", "blink01_vhd.sdo" and "blink01_vhd_fast.sdo" in directory "D:/temp-development/alteraProjects/blink01/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 809 megabytes
-    Info: Processing ended: Fri Jul 22 01:07:50 2016
+    Info: Peak virtual memory: 4519 megabytes
+    Info: Processing ended: Tue Jul 21 03:14:52 2020
     Info: Elapsed time: 00:00:00
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
 
 

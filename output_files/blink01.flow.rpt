@@ -1,5 +1,5 @@
 Flow report for blink01
-Fri Jul 22 01:07:50 2016
+Tue Jul 21 03:14:52 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Fri Jul 22 01:07:50 2016           ;
+; Flow Status                        ; Successful - Tue Jul 21 03:14:52 2020           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; blink01                                         ;
 ; Top-level Entity Name              ; blink01                                         ;
@@ -48,7 +48,7 @@ applicable agreement for further details.
 ; Device                             ; EP2C5T144C8                                     ;
 ; Timing Models                      ; Final                                           ;
 ; Total logic elements               ; 58 / 4,608 ( 1 % )                              ;
-;     Total combinational functions  ; 57 / 4,608 ( 1 % )                              ;
+;     Total combinational functions  ; 58 / 4,608 ( 1 % )                              ;
 ;     Dedicated logic registers      ; 27 / 4,608 ( < 1 % )                            ;
 ; Total registers                    ; 27                                              ;
 ; Total pins                         ; 5 / 89 ( 6 % )                                  ;
@@ -64,27 +64,27 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/22/2016 01:07:37 ;
+; Start date & time ; 07/21/2020 03:14:45 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; blink01             ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                  ;
-+-------------------------------------+------------------------------+---------------+-------------+----------------+
-; Assignment Name                     ; Value                        ; Default Value ; Entity Name ; Section Id     ;
-+-------------------------------------+------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 145163578407.146917485712779 ; --            ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                         ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)       ; <None>        ; --          ; --             ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                           ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                            ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; 16764057                     ; --            ; --          ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING        ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                       ; --            ; --          ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                 ; --            ; --          ; --             ;
-+-------------------------------------+------------------------------+---------------+-------------+----------------+
++---------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                    ;
++-------------------------------------+--------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+--------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 61762882887784.159532648410488 ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                           ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)         ; <None>        ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                       ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --          ; --             ;
++-------------------------------------+--------------------------------+---------------+-------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -92,26 +92,26 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 613 MB              ; 00:00:01                           ;
-; Fitter                    ; 00:00:03     ; 1.0                     ; 646 MB              ; 00:00:02                           ;
-; Assembler                 ; 00:00:00     ; 1.0                     ; 546 MB              ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:00     ; 1.0                     ; 502 MB              ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 789 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:04     ; --                      ; --                  ; 00:00:06                           ;
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:02     ; 1.0                     ; 4789 MB             ; 00:00:02                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4536 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4529 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4507 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:05     ; --                      ; --                  ; 00:00:05                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                             ;
-+---------------------------+------------------+----------------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
-+---------------------------+------------------+----------------+------------+----------------+
-; Analysis & Synthesis      ; thunkfad         ; Ubuntu 14.04.4 ; 14         ; x86_64         ;
-; Fitter                    ; thunkfad         ; Ubuntu 14.04.4 ; 14         ; x86_64         ;
-; Assembler                 ; thunkfad         ; Ubuntu 14.04.4 ; 14         ; x86_64         ;
-; TimeQuest Timing Analyzer ; thunkfad         ; Ubuntu 14.04.4 ; 14         ; x86_64         ;
-; EDA Netlist Writer        ; thunkfad         ; Ubuntu 14.04.4 ; 14         ; x86_64         ;
-+---------------------------+------------------+----------------+------------+----------------+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; oculus_rig       ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; oculus_rig       ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; oculus_rig       ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; oculus_rig       ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; oculus_rig       ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
 
 
 ------------

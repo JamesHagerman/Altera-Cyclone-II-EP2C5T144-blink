@@ -29,12 +29,9 @@ clk => led1~reg0.CLK
 led0 <= blink.DB_MAX_OUTPUT_PORT_TYPE
 led1 <= led1~reg0.DB_MAX_OUTPUT_PORT_TYPE
 led2 <= blink.DB_MAX_OUTPUT_PORT_TYPE
-sw0 => Add1.IN17
-sw0 => Add1.IN18
-sw0 => Add1.IN19
-sw0 => Add1.IN20
 sw0 => Add1.IN21
 sw0 => Add1.IN22
+sw0 => Add1.IN23
 sw0 => led1~reg0.DATAIN
 
 

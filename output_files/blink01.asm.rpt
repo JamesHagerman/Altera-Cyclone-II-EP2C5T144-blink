@@ -1,5 +1,5 @@
 Assembler report for blink01
-Fri Jul 22 01:07:45 2016
+Tue Jul 21 03:14:50 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -10,9 +10,9 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: blink01.sof
-  6. Assembler Device Options: blink01.pof
-  7. Assembler Device Options: blink01.rbf
+  5. Assembler Device Options: D:/temp-development/alteraProjects/blink01/output_files/blink01.sof
+  6. Assembler Device Options: D:/temp-development/alteraProjects/blink01/output_files/blink01.pof
+  7. Assembler Device Options: D:/temp-development/alteraProjects/blink01/output_files/blink01.rbf
   8. Assembler Messages
 
 
@@ -39,7 +39,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Jul 22 01:07:45 2016 ;
+; Assembler Status      ; Successful - Tue Jul 21 03:14:50 2020 ;
 ; Revision Name         ; blink01                               ;
 ; Top-level Entity Name ; blink01                               ;
 ; Family                ; Cyclone II                            ;
@@ -79,48 +79,48 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+---------------------------+
-; Assembler Generated Files ;
-+---------------------------+
-; File Name                 ;
-+---------------------------+
-; blink01.sof               ;
-; blink01.pof               ;
-; blink01.rbf               ;
-+---------------------------+
++---------------------------------------------------------------------+
+; Assembler Generated Files                                           ;
++---------------------------------------------------------------------+
+; File Name                                                           ;
++---------------------------------------------------------------------+
+; D:/temp-development/alteraProjects/blink01/output_files/blink01.sof ;
+; D:/temp-development/alteraProjects/blink01/output_files/blink01.pof ;
+; D:/temp-development/alteraProjects/blink01/output_files/blink01.rbf ;
++---------------------------------------------------------------------+
 
 
-+---------------------------------------+
-; Assembler Device Options: blink01.sof ;
-+----------------+----------------------+
-; Option         ; Setting              ;
-+----------------+----------------------+
-; Device         ; EP2C5T144C8          ;
-; JTAG usercode  ; 0x00078B7D           ;
-; Checksum       ; 0x00078B7D           ;
-+----------------+----------------------+
++-----------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/temp-development/alteraProjects/blink01/output_files/blink01.sof ;
++----------------+------------------------------------------------------------------------------+
+; Option         ; Setting                                                                      ;
++----------------+------------------------------------------------------------------------------+
+; Device         ; EP2C5T144C8                                                                  ;
+; JTAG usercode  ; 0x00078D69                                                                   ;
+; Checksum       ; 0x00078D69                                                                   ;
++----------------+------------------------------------------------------------------------------+
 
 
-+---------------------------------------+
-; Assembler Device Options: blink01.pof ;
-+--------------------+------------------+
-; Option             ; Setting          ;
-+--------------------+------------------+
-; Device             ; EPCS4            ;
-; JTAG usercode      ; 0x00000000       ;
-; Checksum           ; 0x07516D70       ;
-; Compression Ratio  ; 3                ;
-+--------------------+------------------+
++-----------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/temp-development/alteraProjects/blink01/output_files/blink01.pof ;
++--------------------+--------------------------------------------------------------------------+
+; Option             ; Setting                                                                  ;
++--------------------+--------------------------------------------------------------------------+
+; Device             ; EPCS4                                                                    ;
+; JTAG usercode      ; 0x00000000                                                               ;
+; Checksum           ; 0x07520626                                                               ;
+; Compression Ratio  ; 3                                                                        ;
++--------------------+--------------------------------------------------------------------------+
 
 
-+---------------------------------------+
-; Assembler Device Options: blink01.rbf ;
-+---------------------+-----------------+
-; Option              ; Setting         ;
-+---------------------+-----------------+
-; Raw Binary File     ;                 ;
-;  Compression Ratio  ; 3               ;
-+---------------------+-----------------+
++-----------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/temp-development/alteraProjects/blink01/output_files/blink01.rbf ;
++---------------------+-------------------------------------------------------------------------+
+; Option              ; Setting                                                                 ;
++---------------------+-------------------------------------------------------------------------+
+; Raw Binary File     ;                                                                         ;
+;  Compression Ratio  ; 3                                                                       ;
++---------------------+-------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -129,14 +129,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Jul 22 01:07:45 2016
+    Info: Processing started: Tue Jul 21 03:14:49 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off blink01 -c blink01
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 546 megabytes
-    Info: Processing ended: Fri Jul 22 01:07:45 2016
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 4536 megabytes
+    Info: Processing ended: Tue Jul 21 03:14:50 2020
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

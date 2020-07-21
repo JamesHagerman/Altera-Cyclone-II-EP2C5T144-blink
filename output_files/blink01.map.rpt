@@ -1,5 +1,5 @@
 Analysis & Synthesis report for blink01
-Fri Jul 22 01:07:39 2016
+Tue Jul 21 03:14:45 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -41,13 +41,13 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Jul 22 01:07:39 2016           ;
+; Analysis & Synthesis Status        ; Successful - Tue Jul 21 03:14:45 2020           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; blink01                                         ;
 ; Top-level Entity Name              ; blink01                                         ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 57                                              ;
-;     Total combinational functions  ; 57                                              ;
+; Total logic elements               ; 58                                              ;
+;     Total combinational functions  ; 58                                              ;
 ;     Dedicated logic registers      ; 27                                              ;
 ; Total registers                    ; 27                                              ;
 ; Total pins                         ; 5                                               ;
@@ -154,13 +154,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                    ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                             ; Library ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; blink01.vhd                      ; yes             ; User VHDL File  ; /media/jamis/8ac7fe17-57f8-471e-a11d-a93c793509c3/jamis/Desktop/my_root/Development/Circuits_MPUs/Altera_FPGA/alteraProjects/blink01.vhd ;         ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                  ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                           ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------+---------+
+; blink01.vhd                      ; yes             ; User VHDL File  ; D:/temp-development/alteraProjects/blink01/blink01.vhd ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -168,17 +168,17 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 57    ;
+; Estimated Total logic elements              ; 58    ;
 ;                                             ;       ;
-; Total combinational functions               ; 57    ;
+; Total combinational functions               ; 58    ;
 ; Logic element usage by number of LUT inputs ;       ;
 ;     -- 4 input functions                    ; 8     ;
-;     -- 3 input functions                    ; 6     ;
-;     -- <=2 input functions                  ; 43    ;
+;     -- 3 input functions                    ; 3     ;
+;     -- <=2 input functions                  ; 47    ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
 ;     -- normal mode                          ; 12    ;
-;     -- arithmetic mode                      ; 45    ;
+;     -- arithmetic mode                      ; 46    ;
 ;                                             ;       ;
 ; Total registers                             ; 27    ;
 ;     -- Dedicated logic registers            ; 27    ;
@@ -189,7 +189,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Maximum fan-out node                        ; clk   ;
 ; Maximum fan-out                             ; 27    ;
 ; Total fan-out                               ; 212   ;
-; Average fan-out                             ; 2.38  ;
+; Average fan-out                             ; 2.36  ;
 +---------------------------------------------+-------+
 
 
@@ -198,7 +198,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |blink01                   ; 57 (57)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 5    ; 0            ; |blink01            ; work         ;
+; |blink01                   ; 58 (58)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 5    ; 0            ; |blink01            ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -209,7 +209,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
 ; Total registers                              ; 27    ;
-; Number of registers using Synchronous Clear  ; 22    ;
+; Number of registers using Synchronous Clear  ; 23    ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
@@ -233,7 +233,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Jul 22 01:07:37 2016
+    Info: Processing started: Tue Jul 21 03:14:44 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off blink01 -c blink01
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file blink01.vhd
@@ -242,14 +242,14 @@ Info (12021): Found 2 design units, including 1 entities, in source file blink01
 Info (12127): Elaborating entity "blink01" for the top level hierarchy
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 62 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 63 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 3 output pins
-    Info (21061): Implemented 57 logic cells
+    Info (21061): Implemented 58 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 645 megabytes
-    Info: Processing ended: Fri Jul 22 01:07:39 2016
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4622 megabytes
+    Info: Processing ended: Tue Jul 21 03:14:45 2020
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 

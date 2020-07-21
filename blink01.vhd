@@ -31,7 +31,7 @@ begin
 		if rising_edge(clk) then
 		
 			if sw0='0' then
-				speed := 1000;
+				speed := 100;
 				led1 <= '1';
 			else
 				speed := 0;
